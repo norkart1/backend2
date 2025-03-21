@@ -6,7 +6,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "norkart",
+  "author": "norkart1",
   "type": "module",
   "license": "ISC",
   "dependencies": {
