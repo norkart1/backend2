@@ -8,7 +8,7 @@ const generateToken = (userId) => {
     return jwt.sign({ userId }, process.env.JWT_SECRET, { expriesIn: "15d" });
 };
 
-router.get("/register", async (req, res) => {
+router.post("/register", async (req, res) => {
     try {
         const { email, username, password } = req.body;
 
