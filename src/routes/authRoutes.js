@@ -102,7 +102,7 @@ router.post("/login", async (req, res) => {
       },
     });
   } catch (error) {
-    console.error("Error in login rout", error);
+    console.log("Error in login rout", error);
     res.status(500).json({ message: "Internal serve error" });
   }
 });
